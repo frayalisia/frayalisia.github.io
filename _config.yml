@@ -1,3 +1,8 @@
 name: My personal books
 markdown: kramdown
 permalink: /books/:year/:month/:day/:title
+
+# Social settings
+facebook_url: https://www.facebook.com/vikki.tsygankova
+instagram_url: https://www.instagram.com/miss_vixy/
+github_url: https://github.com/frayalisia/
