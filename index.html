@@ -1,8 +1,19 @@
 ---
 layout: default
-title: Приветствие
 ---
-<div class="blurb">
-  <h1>Всем привет, меня зовут Виктория!</h1>
-  <p>Я завела сайт для обзоров книг и практики навык письма. <a href="/about">Больше обо мнею..</a></p>
-</div><!-- /.blurb -->
+<h1>Библиотека Алисы Фрай</h1>
+<main class="shelf">
+  {% for book in site.data.books  %}
+  <article class="book">
+    <figure class="book-cover">
+      <a href="{{ book.link }}">
+        <img src="./images/{{ book.image }}" alt="{{ book.title }}">
+      </a>
+    </figure>
+    <div class="book-info">
+      <h2>{{ book.title }}</h2>
+      <p>{{ book.author }}</p>
+    </div>
+  </article>
+  {% endfor %}
+</main>
