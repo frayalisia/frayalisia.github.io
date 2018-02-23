@@ -1,8 +1,14 @@
-name: My personal books
+# Site settings
+title: Библиотека Алисы Фрай
 markdown: kramdown
 permalink: /books/:year/:month/:day/:title
+
+email: frayalisia@gmail.com
 
 # Social settings
 facebook_url: https://www.facebook.com/vikki.tsygankova
 instagram_url: https://www.instagram.com/miss_vixy/
 github_url: https://github.com/frayalisia/
+
+sass:
+  style: compressed
