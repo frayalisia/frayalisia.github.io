@@ -1,2 +1,3 @@
 name: My personal books
 markdown: kramdown
+permalink: /books/:year/:month/:day/:title
