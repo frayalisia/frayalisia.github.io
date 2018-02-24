@@ -34,11 +34,19 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  margin: 10px;
+  margin: 0px;
 }
 
 h1 {
-    font-size: 3em;
+    margin-left: 60px;
+    font-size: 1.4em;
+    font-family: Georgia;
+}
+
+p.meta {
+    margin-left: 60px;
+    font-size: 1.2em;
+    line-height: 1.3em;
 }
 
 p {
@@ -58,15 +66,17 @@ img {
 
 nav ul {
     font-family: Georgia;
-    margin: 30px auto 40px; 
+    margin: 40px auto 30px; 
     padding: 0px;
+    list-style: none;
     font-weight: bold;
+    
 }
 nav ul li {
     display: inline;
-    margin-right: 30px;
-    margin-left: 50px;
-    padding-right: 30px;
+    margin-right: 5px;
+    margin-left: 60px;
+    padding-right: 15px;
 }
 
 nav ul li a {
@@ -75,7 +85,9 @@ nav ul li a {
 }
 
 .post {
-     margin: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 10px;
 }
 
 /*----- Books -----*/
@@ -176,7 +188,9 @@ nav ul li a {
 /*----- Footer -----*/
 
 .footer {
-  margin-top: 60px auto;
-  margin-bottom: 30px;
+  /*----- margin-top: 60px auto;
+  margin-bottom: 30px;-----*/
+  margin-top: -8px;
+  padding: 4rem 3rem;
   text-align: center;
 }
