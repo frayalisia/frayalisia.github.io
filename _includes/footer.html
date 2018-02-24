@@ -1,6 +1,17 @@
 <footer class="footer">
-  <a class="subscribe" href="{{ "/atom.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i>RSS</span></a>
+  <ul class="social-icons">
+      <li><a href="/atom.xml"> <span class="tooltip"> <i class="fa fa-rss"></i></span></a></li>
+      {% if site.facebook_url %}
+        <li><a href="{{ site.facebook_url }}"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+      {% endif %}
+      {% if site.instagram_url %}
+        <li><a href="{{ site.instagram_url }}"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      {% endif %}
+      {% if site.github_url %}
+        <li><a href="{{ site.github_url }}"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+      {% endif %}
+  </ul>
   <div class="inner">
-       <section class="copyright">All content copyright <a href="mailto:frayalisia@gmail.com">Alisia Fray</a> &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved.</section>
+      <section class="copyright">All content copyright <a href="mailto:frayalisia@gmail.com">Alisia Fray</a> &copy; 2018 &bull; All rights reserved.</section>
   </div>
 </footer>
