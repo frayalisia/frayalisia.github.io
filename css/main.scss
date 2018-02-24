@@ -35,18 +35,21 @@ body {
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0px;
+/*   padding-top: 10px; */
 }
 
 h1 {
     margin-left: 60px;
     font-size: 1.4em;
     font-family: Georgia;
+    margin-top: 35px;
 }
 
 p.meta {
     margin-left: 60px;
     font-size: 1.2em;
     line-height: 1.3em;
+    margin-bottom: 20px;
 }
 
 p {
@@ -182,6 +185,7 @@ nav ul li a {
           flex: 1;
   border-top: 5px solid #eee;
   padding: ($spacing-unit * 2);
+  margin-left: 20px;
 }
 
 
